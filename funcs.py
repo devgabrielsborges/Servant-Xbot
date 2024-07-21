@@ -1,4 +1,5 @@
 import re
+import fire
 import requests
 from bs4 import BeautifulSoup as bs
 
@@ -6,7 +7,15 @@ from bs4 import BeautifulSoup as bs
 # TODO: Escrever documentação das funções
 
 
-def set_amazon(url: str):
+def set_amazon(url: str) -> dict:
+    """set_amazon Returns a dict with url, product and price
+
+    Args:
+        url (str): Url of product
+
+    Returns:
+        dict: Url, Product, Price
+    """
     html_body = requests.get(url).content
     soup = bs(html_body, 'html.parser')
 
@@ -17,3 +26,6 @@ def set_amazon(url: str):
     return {
         'Link': url, 'Produto': name, 'Valor': float(price.replace(',', '.'))
     }
+
+
+fire.Fire()
