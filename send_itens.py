@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 import firebase_admin
 from firebase_admin import db, credentials
-from funcs import set_amazon
+from crud import set_amazon
 
 load_dotenv()   # Load environment variables
 
@@ -20,7 +20,7 @@ with open('links.txt', 'r') as file:
     product_info = {}
 
     for num, link in enumerate(links):
-        index = db.reference('/last_item').get()
+        last_item = db.reference('/last_item').get()
         try:
             if 'amzn' in link:
                 product_info = set_amazon(link)
@@ -30,7 +30,7 @@ with open('links.txt', 'r') as file:
             with open('errors.txt', 'a') as error_file:
                 error_file.write(f'Error: {e}\nLink: {link}\n\n')
             continue
-        db.reference(f'/itens/{index + 1}').update(
+        db.reference(f'/itens/{last_item + 1}').update(
             {
                 'Link': product_info['Link'],
                 'Produto': product_info['Produto'],
@@ -38,4 +38,4 @@ with open('links.txt', 'r') as file:
                 'Ultimo_valor': product_info['Valor']
             }
         )
-        db.reference('/last_item').set(index + 1)
+        db.reference('/last_item').set(last_item + 1)

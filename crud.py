@@ -28,4 +28,5 @@ def set_amazon(url: str) -> dict:
     }
 
 
-fire.Fire()
+if __name__ == '__main__':
+    fire.Fire()
