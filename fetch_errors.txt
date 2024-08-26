@@ -99,3 +99,214 @@ Link: None
 Current time: 2024-08-09 23:48:49.974437-03:00
 --------------------------------------------------
 
+--------------------------------------------------
+
+
+Index: 5
+Name: Apple notebook MacBook Air (de 13 polegadas, Processador M1 da Apple com CPU 8‑core e GPU 7‑core, 8 GB RAM, 256 GB) - Dourado
+Error: 'NoneType' object has no attribute 'text'
+Link: https://amzn.to/4aNhE1s
+
+Current time: 2024-08-10 00:34:03.880927-03:00
+--------------------------------------------------
+
+--------------------------------------------------
+
+
+Index: 6
+Name: MacBook Pro (2023). O notebook da Apple chip M3 Pro, CPU de 11-core e GPU de 14-core
+Error: 'NoneType' object has no attribute 'text'
+Link: https://amzn.to/4aNzP7d
+
+Current time: 2024-08-10 00:34:06.077739-03:00
+--------------------------------------------------
+
+--------------------------------------------------
+
+
+Index: 7
+Name: Echo Dot 5ª geração | O Echo Dot com o melhor som já lançado
+Error: list index out of range
+Link: https://amzn.to/4e4V9HY
+
+Current time: 2024-08-10 00:34:08.498623-03:00
+--------------------------------------------------
+
+--------------------------------------------------
+
+
+Index: 9
+Name: Bota Cat Masculina em Couro Adventure
+Error: 'NoneType' object has no attribute 'text'
+Link: https://amzn.to/3Kzagfn
+
+Current time: 2024-08-10 00:34:12.104026-03:00
+--------------------------------------------------
+
+--------------------------------------------------
+
+
+Index: 5
+Name: Apple notebook MacBook Air (de 13 polegadas, Processador M1 da Apple com CPU 8‑core e GPU 7‑core, 8 GB RAM, 256 GB) - Dourado
+Error: 'NoneType' object has no attribute 'text'
+Link: https://amzn.to/4aNhE1s
+
+Current time: 2024-08-10 00:35:06.435363-03:00
+--------------------------------------------------
+
+--------------------------------------------------
+
+
+Index: 6
+Name: MacBook Pro (2023). O notebook da Apple chip M3 Pro, CPU de 11-core e GPU de 14-core
+Error: 'NoneType' object has no attribute 'text'
+Link: https://amzn.to/4aNzP7d
+
+Current time: 2024-08-10 00:35:08.361977-03:00
+--------------------------------------------------
+
+--------------------------------------------------
+
+
+Index: 7
+Name: Echo Dot 5ª geração | O Echo Dot com o melhor som já lançado
+Error: list index out of range
+Link: https://amzn.to/4e4V9HY
+
+Current time: 2024-08-10 00:35:10.483822-03:00
+--------------------------------------------------
+
+--------------------------------------------------
+
+
+Index: 9
+Name: Bota Cat Masculina em Couro Adventure
+Error: 'NoneType' object has no attribute 'text'
+Link: https://amzn.to/3Kzagfn
+
+Current time: 2024-08-10 00:35:14.283942-03:00
+--------------------------------------------------
+
+--------------------------------------------------
+
+
+Index: 22
+Name: Novo Echo Spot com Alexa (2024) | Despertador inteligente com som vibrante | Cor Preta
+Error: list index out of range
+Link: https://amzn.to/3W0jqab
+
+Current time: 2024-08-10 00:35:38.815855-03:00
+--------------------------------------------------
+
+--------------------------------------------------
+
+
+Index: 23
+Name: Fire TV Stick Lite | Streaming em Full HD com Alexa
+Error: list index out of range
+Link: https://amzn.to/3Wgxttu
+
+Current time: 2024-08-10 00:35:40.958231-03:00
+--------------------------------------------------
+
+--------------------------------------------------
+
+
+Index: 36
+Name: SANTINO, Mala de Bordo Chicago Rígida 360° Santino P - ASDV222P Cor: Pink
+Error: 'NoneType' object has no attribute 'text'
+Link: https://amzn.to/4cK19Vz
+
+
+Current time: 2024-08-10 00:36:04.071238-03:00
+--------------------------------------------------
+
+--------------------------------------------------
+
+
+Index: 53
+Name: SANTINO, Mala de Bordo Chicago Rígida 360° Santino P - ASDV222P Cor: Pink
+Error: 'NoneType' object has no attribute 'text'
+Link: https://amzn.to/4cK19Vz
+
+
+Current time: 2024-08-10 00:36:37.175441-03:00
+--------------------------------------------------
+
+--------------------------------------------------
+
+
+Index: 58
+Name: None
+Error: Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?
+Link: None
+
+Current time: 2024-08-10 00:36:45.603571-03:00
+--------------------------------------------------
+
+--------------------------------------------------
+
+
+Index: 5
+Name: Apple notebook MacBook Air (de 13 polegadas, Processador M1 da Apple com CPU 8‑core e GPU 7‑core, 8 GB RAM, 256 GB) - Dourado
+Error: 'NoneType' object has no attribute 'text'
+Link: https://amzn.to/4aNhE1s
+
+Current time: 2024-08-21 17:54:18.231929-03:00
+--------------------------------------------------
+
+--------------------------------------------------
+
+
+Index: 6
+Name: MacBook Pro (2023). O notebook da Apple chip M3 Pro, CPU de 11-core e GPU de 14-core
+Error: 'NoneType' object has no attribute 'text'
+Link: https://amzn.to/4aNzP7d
+
+Current time: 2024-08-21 17:54:20.273358-03:00
+--------------------------------------------------
+
+--------------------------------------------------
+
+
+Index: 7
+Name: Echo Dot 5ª geração | O Echo Dot com o melhor som já lançado
+Error: list index out of range
+Link: https://amzn.to/4e4V9HY
+
+Current time: 2024-08-21 17:54:23.024055-03:00
+--------------------------------------------------
+
+--------------------------------------------------
+
+
+Index: 9
+Name: Bota Cat Masculina em Couro Adventure
+Error: 'NoneType' object has no attribute 'text'
+Link: https://amzn.to/3Kzagfn
+
+Current time: 2024-08-21 17:54:26.321699-03:00
+--------------------------------------------------
+
+--------------------------------------------------
+
+
+Index: 5
+Name: Apple notebook MacBook Air (de 13 polegadas, Processador M1 da Apple com CPU 8‑core e GPU 7‑core, 8 GB RAM, 256 GB) - Dourado
+Error: 'NoneType' object has no attribute 'text'
+Link: https://amzn.to/4aNhE1s
+
+Current time: 2024-08-26 16:49:40.088432-03:00
+--------------------------------------------------
+
+--------------------------------------------------
+
+
+Index: 6
+Name: MacBook Pro (2023). O notebook da Apple chip M3 Pro, CPU de 11-core e GPU de 14-core
+Error: 'NoneType' object has no attribute 'text'
+Link: https://amzn.to/4aNzP7d
+
+Current time: 2024-08-26 16:49:42.198405-03:00
+--------------------------------------------------
+
