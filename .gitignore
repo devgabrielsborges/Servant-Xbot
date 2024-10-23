@@ -1,6 +1,8 @@
-bd.ipynb
-links.txt
+brute_links.txt
+afiliate_links.txt
 errors.txt
 .env
+.idea
 /__pycache__
 firebase_credentials.json
+cookies.pkl

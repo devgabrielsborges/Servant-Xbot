@@ -15,7 +15,7 @@ firebase_admin.initialize_app(
     }
 )
 
-with open('links.txt', 'r') as file:
+with open('afiliate_links.txt', 'r') as file:
     links = file.readlines()
     product_info = {}
 
