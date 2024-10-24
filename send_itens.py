@@ -1,11 +1,11 @@
 import os
 from random import randint
-
 from dotenv import load_dotenv
 import undetected_chromedriver as uc
 import firebase_admin
 from firebase_admin import db, credentials
 from crud import set_amazon
+
 
 load_dotenv()   # Load environment variables
 
@@ -41,7 +41,7 @@ with open('afiliate_links.txt', 'r') as file:
             with open('errors.txt', 'a') as error_file:
                 error_file.write(f'Error: {e}\nLink: {link}\n\n')
             continue
-        db.reference(f'/itens/{last_item + 1}').update(
+        db.reference(f'/itens/{(last_item + 1)}').update(
             {
                 'Link': product_info['Link'],
                 'Produto': product_info['Produto'],

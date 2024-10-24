@@ -1,14 +1,14 @@
 import pickle
 import re
 import os
-from random import randint
-
 import undetected_chromedriver as uc
+from random import randint
 from time import sleep
 from dotenv import load_dotenv
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.expected_conditions import presence_of_all_elements_located, presence_of_element_located
 from selenium.webdriver.support.wait import WebDriverWait
+
 
 load_dotenv()
 

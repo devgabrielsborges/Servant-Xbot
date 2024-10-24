@@ -1,15 +1,10 @@
-import pickle
 import re
-from random import randint
-
 import fire
-import requests
 import undetected_chromedriver as uc
 from bs4 import BeautifulSoup as bs
 
 
-
-def set_amazon(url: str, driver) -> dict:
+def set_amazon(url: str, driver: uc.driver) -> dict:
     """set_amazon Returns a dict with url, product and price
 
     Args:
@@ -30,11 +25,6 @@ def set_amazon(url: str, driver) -> dict:
     return {
         'Link': url, 'Produto': name, 'Valor': float(price.replace(',', '.'))
     }
-
-def get_link_amazon(url: str) -> str:
-    driver = uc.Chrome()
-    driver.get(url)
-
 
 
 if __name__ == '__main__':
