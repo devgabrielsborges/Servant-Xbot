@@ -1,0 +1,31 @@
+{
+    "name": "Python 3.12 Development Container",
+    "image": "python:3.12",
+    "features": {
+        "ghcr.io/devcontainers/features/python:1": {
+            "version": "3.12"
+        }
+    },
+    "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt",
+    "postStartCommand": "",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash"
+            },
+            "extensions": [
+                // python extensions
+                "ms-python.python",
+                "ms-python.flake8",
+                "ms-python.debugpy",
+                "njpwerner.autodocstring",
+                // general
+                "esbenp.prettier-vscode",
+                "catppuccin.catppuccin-vsc-icons",
+                "eamodio.gitlens",
+                "gruntfuggly.todo-tree"
+
+            ]
+        }
+    }
+}
