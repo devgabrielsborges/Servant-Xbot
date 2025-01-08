@@ -56,7 +56,7 @@ with open("cookies.pkl", 'rb') as cookiesfile:
     for cookie in cookies:
         driver.add_cookie(cookie)
 
-with open("best_sellers_topics.txt", 'r') as f:
+with open("utils/best_sellers_topics.txt", 'r') as f:
     topics = f.readlines()
 
     for topic in topics:

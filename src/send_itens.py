@@ -26,7 +26,7 @@ firebase_admin.initialize_app(
     }
 )
 
-with open('afiliate_links.txt', 'r') as file:
+with open('utils/afiliate_links.txt', 'r') as file:
     links = file.readlines()
     product_info = {}
 
@@ -38,7 +38,7 @@ with open('afiliate_links.txt', 'r') as file:
                 print(product_info)
 
         except Exception as e:
-            with open('errors.txt', 'a') as error_file:
+            with open('utils/errors.txt', 'a') as error_file:
                 error_file.write(f'Error: {e}\nLink: {link}\n\n')
             continue
         db.reference(f'/itens/{(last_item + 1)}').update(
