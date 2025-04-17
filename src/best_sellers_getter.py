@@ -27,8 +27,8 @@ wait.until(presence_of_element_located((By.ID, "nav-link-accountList")))
 login_button = driver.find_element(By.ID, "nav-link-accountList")
 login_button.click()
 
-wait.until(presence_of_element_located((By.ID, "ap_email")))
-email_input = driver.find_element(By.ID, "ap_email")
+wait.until(presence_of_element_located((By.ID, "ap_email_login")))
+email_input = driver.find_element(By.ID, "ap_email_login")
 email_input.send_keys(f'{os.getenv("amazon_email")}\n')
 
 wait.until(presence_of_element_located((By.ID, "ap_password")))
@@ -56,7 +56,7 @@ with open("cookies.pkl", 'rb') as cookiesfile:
     for cookie in cookies:
         driver.add_cookie(cookie)
 
-with open("utils/best_sellers_topics.txt", 'r') as f:
+with open("../utils/best_sellers_topics.txt", 'r') as f:
     topics = f.readlines()
 
     for topic in topics:
@@ -77,8 +77,7 @@ with open("utils/best_sellers_topics.txt", 'r') as f:
             ) for price in driver.find_elements(By.CLASS_NAME, "_cDEzb_p13n-sc-price_3mJ9Z")
         ]
 
-        links = [link.get_attribute("href") for link in driver.find_elements(By.XPATH,
-            "//a[@class='a-link-normal' and @role='link']/span/div[@class='_cDEzb_p13n-sc-css-line-clamp-3_g3dy1']/ancestor::a")]
+        links = [link.get_attribute('href') for link in driver.find_elements(By.CSS_SELECTOR, "a.a-link-normal.aok-block")]
 
         with open("brute_links.txt", "w") as file:
             for link in links:
