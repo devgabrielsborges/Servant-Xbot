@@ -176,3 +176,6 @@ credentials.json
 *.pkl
 afiliate_links.txt
 brute_links.txt
+
+output/
+*.json
