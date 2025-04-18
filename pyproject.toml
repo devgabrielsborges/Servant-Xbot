@@ -3,7 +3,7 @@ name = "servant-xbot"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Gabriel Borges",email = "161774213+devgabrielsborges@users.noreply.github.com"}
+    {name = "Gabriel Borges",email = "dev.gabrielsborges@proton.me"}
 ]
 readme = "README.md"
 requires-python = ">=3.13"
