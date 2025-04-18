@@ -1,0 +1,40 @@
+[project]
+name = "servant-xbot"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Gabriel Borges",email = "161774213+devgabrielsborges@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "undetected-chromedriver (>=3.5.5,<4.0.0)",
+    "python-dotenv (>=1.1.0,<2.0.0)",
+    "selenium (>=4.31.0,<5.0.0)",
+    "bs4 (>=0.0.2,<0.0.3)",
+    "fire (>=0.7.0,<0.8.0)",
+    "firebase-admin (>=6.7.0,<7.0.0)"
+]
+
+[tool.poetry]
+name = "servant-xbot"
+version = "0.1.0"
+description = "Amazon product tracking and affiliate link management tool"
+authors = ["Gabriel Borges <dev.gabrielsborges@proton.me>"]
+readme = "README.md"
+packages = [
+    {include = "servant_xbot", from = "src"},
+    {include = "config"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+undetected-chromedriver = "^3.5.0"
+selenium = "^4.11.0"
+firebase-admin = "^6.2.0"
+python-dotenv = "^1.0.0"
+beautifulsoup4 = "^4.12.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
