@@ -179,3 +179,5 @@ brute_links.txt
 
 output/
 *.json
+
+*.lock
